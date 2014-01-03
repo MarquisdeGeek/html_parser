@@ -1,0 +1,24 @@
+#ifndef _HTML_ERROR_LIST_H
+#define _HTML_ERROR_LIST_H
+
+// Tag Errors
+#define HERR_INVALID_TAG			1
+#define HERR_INVALID_ENDTAG			2
+#define HERR_ENDTAG_FORBIDDEN		3
+#define HERR_ENDTAG_NOTOPENED		4
+#define HERR_TAG_NOTCLOSED			5
+
+// Attribute errors
+#define HERR_INVALID_ATTR_NAME		10
+#define HERR_INVALID_ATTR_VALUE		11
+#define HERR_NO_REQD_ATTR			12
+
+// Warnings
+#define HERR_DEPRECATED_TAG			100
+
+// EOF Errors
+#define HERR_EOF_MIDTAG				1000
+
+#define HERR_INVALID_SUBTAG			2000
+
+#endif	// _HTML_ERROR_LIST_H
